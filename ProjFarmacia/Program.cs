@@ -11,22 +11,23 @@ namespace ProjFarmacia
             Cliente cliente = new Cliente()
             {
                 Id = 1,
-                Nome = "João",
+                Nome = "Pedro",
                 Telefone = "16 9999-8888"
             };
 
             Funcionario funcionario = new Funcionario()
             {
                 Id = 1,
-                Nome = "José",
+                Nome = "Andre",
                 Telefone = "16 8888-3333"
             };
+
 
             Venda venda = new Venda()
             {
                 Id = 1,
                 Cliente = cliente,
-                Medicamento = new Medicamento() { Id = 2, Descricao = "Dor nas costas"},
+                Medicamento = new Medicamento() { Id = 2, Descricao = "Ja era"},
                 Funcionario = funcionario,
                 DtVenda = DateTime.Now
             };

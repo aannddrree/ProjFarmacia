@@ -10,7 +10,7 @@ namespace Models
 
         public override string ToString()
         {
-            return "ID: " + this.Id + "\nNome: " + this.Nome;
+            return "\nNome: " + this.Nome;
         }
 
     }
